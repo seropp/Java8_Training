@@ -1,19 +1,19 @@
-package Test;
+package test;
 
-public class Animals {
+public class People {
     private int age;
     private String name;
     private int salary;
     private boolean married;
 
-    public Animals(int Nage, String Nname, int Nsalary, boolean Nmarried) {
+    public People(int Nage, String Nname, int Nsalary, boolean Nmarried) {
         age = Nage;
         name = Nname;
         salary = Nsalary;
         married = Nmarried;
     }
-    public boolean cAge(){
-            return age>20;
+    public int cAge(){
+            return age;
     }
     public boolean isMarried(){
         return married;
